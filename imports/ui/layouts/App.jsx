@@ -1,6 +1,9 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
 //import components here
+import PageHeader from '../components/PageHeader.jsx';
+import AboutSection from '../components/AboutSection.jsx';
+import WorkSection from '../components/WorkSection.jsx';
 
 export default class App extends React.Component {
   render() {
@@ -16,7 +19,11 @@ export default class App extends React.Component {
 
     return (
       <div className="content">
-        <h1>Hello, React Router!</h1>
+        <div className="wrapper">
+          <PageHeader />
+          <AboutSection />
+          <WorkSection />
+        </div>
         <div className="content-container" >
           {clonedChildren}
         </div>

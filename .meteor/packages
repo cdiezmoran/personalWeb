@@ -48,3 +48,4 @@ simple:rest
 audit-argument-checks@1.0.7
 shell-server@0.2.1
 session@1.1.6
+fortawesome:fontawesome
